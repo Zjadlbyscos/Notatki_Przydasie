@@ -1,0 +1,43 @@
+
+/* Zastosowane do wszystkich w kategorii alert_warning */
+p {
+  font-size: 24px; color:blueviolet;
+}
+.alert_warning {color:aquamarine}
+.alert_success {color:rgb(70, 180, 101)}
+
+/* to to robi czerwoną tabelę LISTA */
+.menu > li {
+  border: 1px solid rgb(130, 46, 183);
+}
+/* Tu link zmienia kolor po focusie */
+.link {
+  color: teal;
+}
+
+.link:hover {
+  color: tomato;
+}
+/* ZMIANA KOLORU GUZIKA PO FOCUSIE*/
+.button:hover { background-color: bisque;}
+/* FOCUS Z TABEM*/
+.LINK:focus .button:focus {border-color:rgb(210, 23, 116);}
+/* ACTIVE button i link */
+.active:active {color:brown}
+
+h1 {background-color:#5C75A6;
+  color:white
+ }
+
+ *{ 
+  margin: 0%;
+ }
+ /*  Tu są style czcionek tekst 1 - tekst 5 */
+ .tekst1 { text-decoration:underline;}
+ .tekst2{
+  text-transform:uppercase;
+ }
+ .tekst3{text-align: right;
+color:navy;
+}
+
