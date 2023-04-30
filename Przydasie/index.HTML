@@ -58,9 +58,38 @@
 <button class="active"> TEN GUZIK MA KLASE ACTIVE</button>
 <button></button>
 <a class="active" href="google.com">To Jest link z klasą active</a>
-<!-- Tu będzie o Stylach do pisania - czcionkach znaczy -->
-<p class="tekst1">Lorem ipsum dolor sit.</p>
-<p class="tekst2">Lorem ipsum dolor sit.</p>
-<p class="tekst3">Lorem ipsum dolor sit.</p>
-<p class="tekst4">Lorem ipsum dolor sit.</p>
-<p class="tekst5">Lorem ipsum dolor sit.</p>
+
+
+
+<!-- !1 FORMULARZ Z OZNACZONYMI BORDER DLA POPRAWNEJ I NIEPOPRAWNEJ WARTOŚCI:  -->
+
+<form action="javascript:void(0);" method="POST">
+  <label>
+    <span>Imię</span>
+    <input type="text" name="name" placeholder="Imię" />
+  </label>
+  <label>
+    <span>E-mail</span>
+    <input
+      type="email"
+      name="email"
+      required
+      placeholder="Adres e-mail"
+    />
+  </label>
+  <label>
+    <span>Hasło</span>
+    <input
+      type="password"
+      name="password"
+      required
+      placeholder="Hasło zawierające 3 do 5 symboli"
+      pattern=".{3,5}"
+      title="od 3 do 5 symboli"
+    />
+  </label>
+  <div class="buttons">
+    <button type="submit">wyślij</button>
+    <button type="reset">resetuj</button>
+  </div>
+</form>
